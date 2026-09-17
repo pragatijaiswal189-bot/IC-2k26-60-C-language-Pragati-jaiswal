@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 9, b = 2;
+
+    printf("Addition = %d", 9 + 2);
+    scanf("%d", &a);
+
+    printf("Subtraction = %d", 9 - 2);
+    scanf("%d", &a);
+
+    printf("Multiplication = %d", 9 * 2);
+    scanf("%d", &a);
+
+    printf("Division = %d", 9 / 2);
+    scanf("%d", &a);
+
+    printf("Remainder = %d", 9 % 2);
+    scanf("%d", &a);
+
+    return 0;
+}
+
+
