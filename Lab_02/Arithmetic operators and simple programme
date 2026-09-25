@@ -1,23 +1,22 @@
 #include <stdio.h>
-
 int main()
 {
     int a = 9, b = 2;
 
-    printf("Addition = %d", 9 + 2);
-    scanf("%d", &a);
+    printf("Addition = %d/n", 9 + 2)
+    scanf("%d/n", &a);
 
-    printf("Subtraction = %d", 9 - 2);
-    scanf("%d", &a);
+    printf("Subtraction = %d/n", 9 - 2)
+    scanf("%d/n", &a);
 
-    printf("Multiplication = %d", 9 * 2);
-    scanf("%d", &a);
+    printf("Multiplication = %d/n", 9 * 2)
+    scanf("%d/n", &a);
 
-    printf("Division = %d", 9 / 2);
-    scanf("%d", &a);
+    printf("Division = %d/n", 9 / 2)
+    scanf("%d/n", &a);
 
-    printf("Remainder = %d", 9 % 2);
-    scanf("%d", &a);
+    printf("Remainder = %d/n", 9 % 2)
+    scanf("%d/n", &a);
 
     return 0;
 }
