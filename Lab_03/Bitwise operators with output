@@ -1,26 +1,25 @@
 #include <stdio.h>
-
 int main()
 {
     int a = 6, b = 3;
 
-    printf("a & b = %d", 6 & 3);
-    scanf("%d", &a);
+    printf("a&b = %d/n", 6&3)
+    scanf("%d/n",&a);
 
-    printf("a | b = %d", 6 | 3);
-    scanf("%d", &b);
+    printf("a!b = %d/n", 6!3)
+    scanf("%d/n",&a);
 
-    printf("a ^ b = %d", 6 ^ 3);
-    scanf("%d", &a);
+    printf("a^b = %d/n", 6^3)
+    scanf("%d/n",&a);
 
-    printf("~a = %d", ~6);
-    scanf("%d", &a);
+    printf("a~b = %d/n",6~3)
+    scanf("%d/n", &a);
 
-    printf("a << 1 = %d", 6 << 1);
-    scanf("%d", &a);
+    printf("a<< 1 = %d/n", 6<<1)
+    scanf("%d/n",&a);
 
-    printf("a >> 1 = %d", 6 >> 1);
-    scanf("%d", &a);
+    printf("a>> 1 = %d/n", 6>>1)
+    scanf("%d/n",&a);
 
     return 0;
 }
