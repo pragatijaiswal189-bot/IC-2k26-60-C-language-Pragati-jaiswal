@@ -2,22 +2,12 @@
 int main()
 {
     int a = 9, b = 2;
-
-    printf("Addition = %d/n", 9 + 2)
-    scanf("%d/n", &a);
-
-    printf("Subtraction = %d/n", 9 - 2)
-    scanf("%d/n", &a);
-
-    printf("Multiplication = %d/n", 9 * 2)
-    scanf("%d/n", &a);
-
-    printf("Division = %d/n", 9 / 2)
-    scanf("%d/n", &a);
-
-    printf("Remainder = %d/n", 9 % 2)
-    scanf("%d/n", &a);
-
+    printf("My name is pragati jaiaswal solve question 2\n);
+    printf("Addition = %d\n", a+b);
+    printf("Subtraction = %d\n", a-b);
+    printf("Multiplication = %d\n", a*b);
+    printf("Division = %d\n", a/b);
+    printf("Remainder = %d\n", a%b);
     return 0;
 }
 
