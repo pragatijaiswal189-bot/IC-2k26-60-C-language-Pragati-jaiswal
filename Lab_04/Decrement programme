@@ -1,12 +1,13 @@
+
 #include <stdio.h>
 int main()
 {
     int a,b,c;
     a=25;
     b=36;
-    c=a--*b;
-    printf("%d",c);
-    c=--a*b;
+    c = (a--)*b;
+    printf("%d\n",c);
+    c = (--a)*b;
     printf("\n%d",c);
     return 0;
 }
