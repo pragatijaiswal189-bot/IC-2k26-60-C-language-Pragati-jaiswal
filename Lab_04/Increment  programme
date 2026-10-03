@@ -4,9 +4,10 @@ int main()
     int a,b,c;
     a=23;
     b=17;
-    c=a++*b;
+    c=(a++)*b;
+    printf("My name is pragati jaiswal solve question 5\n");
     printf("%d",c);
-    c=++a*b;
+    c = (++a)*b;
     printf("\n%d",c);
     return 0;
 }
