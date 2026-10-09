@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()
+{
+    int a=10;
+    printf("My name is prgati jaiswal solve error question 4\n");
+    printf("%d",&a);
+    return 0;
