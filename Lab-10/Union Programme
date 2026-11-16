@@ -1,0 +1,14 @@
+#include <stdio.h>
+union student
+{
+      int roll;
+      float marks;
+}; 
+
+int main(){
+    union student s1;
+
+    s1.roll = 101;
+    printf("Roll number: %d\n", s1.roll);
+    return 0;
+}
