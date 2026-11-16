@@ -1,33 +1,25 @@
 #include <stdio.h>
-#include <math.h>
-
-int main() {
-    int num = 6;
-    int originalNum, remainder, digits = 0;
-    double result = 0.0;
-
-    printf("Given Number: %d\n", num);
-
-    originalNum = num;
-    int temp = num;
-
-    while (temp != 0) {
-        temp /= 10;
-        digits++;
+int main()
+{
+    //input 153 ---> 1*1*1 + 5*5*5 + 3*3*3 = 153
+    int n,arm=0,r,c;
+    printf('Enter any number:")
+    scanf("%d",&n);
+    c=n;
+    while(n>0)
+    {
+          r=n%10;
+          arm=(r*r*r)+arm;
+          n=n/10;
     }
-
-    temp = num;
-    while (temp != 0) {
-        remainder = temp % 10;
-        result += round(pow(remainder, digits));
-        temp /= 10;
-    }
-
-    if ((int)result == originalNum && originalNum >= 0) {
-        printf("%d is an Armstrong number.\n", originalNum);
-    } else {
-        printf("%d is not an Armstrong number.\n", originalNum);
-    }
-
-    return 0;
+     if(c==arm){
+     printf("Armstrong_number");
+     }
+     else{
+     printf("Not an Armstrong_number");
+     }
+     return 0;
 }
+
+
+    
