@@ -1,27 +1,22 @@
 #include <stdio.h>
-#include <string.h>
-
-int main() {
-    char num[50];
-    printf("Enter a number: ");
-    scanf("%s", num);
-
-    int len = strlen(num);
-    int isPalindrome = 1;
-
-    for (int i = 0; i < len / 2; i++) {
-        if (num[i] != num[len - i - 1]) {
-            isPalindrome = 0;
-            break;
-        }
+int main()
+{
+    //input 121 <---> 121
+    int n,c,s=0,r;
+    printf("Enter any Number");
+    scanf("%d",&n);
+    c=n;
+    while(n>0)
+    {
+         r=n%10;
+         s=r+(s*10);
+         n=n/10;
     }
-
-    if (isPalindrome){
-        printf("%s is a palindrome ,num");
+     if(c==s){
+     printf("Palindrome Number");
     }
-    else{
-        printf("%s is not a palindrome, num");
+     else{
+     printf("Not Palindrome_Number");
     }
-    
-    return 0;
+     return 0;
 }
